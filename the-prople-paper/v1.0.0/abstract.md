@@ -18,7 +18,7 @@ For the `Social` activities, it will adopt current existed standards for the dec
 
 For the `Finance`, it will adopt the cryptocurrency to help user to manage their own financial assets in the decentralized and P2P networks. Specifically for this core domain, it will focus on the *Chain Abstractions* and *Network Interoperability* rather than creating or managing its own crypto network. For its *base network* it will using [NEAR Protocol](https://near.org/), because this network protocol has same mission and vision about the *Chain Abstraction* and *Network Interoperability* including already provides base technology components of it so we can focus on our domains, besides this network protocol also already has a good performance and security standard as a the crypto network. 
 
-To maintain interoperability with the `EVM Platforms`, it will also using other *interoperability networks* like:
+Other networks to support *interoperability* like:
 
 - [ZetaChain](https://www.zetachain.com/)
 - [Omni Network](https://omni.network/)
