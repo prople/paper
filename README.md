@@ -11,6 +11,6 @@ The versionning will follow [SemVer](https://semver.org/) standards.
 
 ## Available Papers
 
-|   Title   | Latest Version    |
-|   -----   | --------------    |
-|   `The Prople Paper`  |   [v1.0.0](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0) |
+|   Title   | Latest Version    |   Author  |
+|   -----   | --------------    |   ------  |
+|   `The Prople Paper`  |   [v1.0.0](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0) | [rstlix0x0](https://github.com/rstlix0x0/) |
