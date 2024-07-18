@@ -1,6 +1,6 @@
-|   Section |   Version |   Author  |   Copyright License   |
-|   ------- |   ------- |   ------  |   -----------------   |
-| Abstract | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) | [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
+|   Paper   |   Section |   Version |   Author  |   CreatedAt   |
+|   ------- |   ------- |   ------  |   ------  |   ---------   |
+|   [The Prople Paper](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0)   |   Abstract | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) |    July, 18th, 2024  00:23:23 UTC
 
 ---
 
@@ -24,4 +24,8 @@ To maintain interoperability with the `EVM Platforms`, it will also using other 
 - [Omni Network](https://omni.network/)
 - [Axellar Network](https://www.axelar.network/)
 
-The core foundation domain for this platform is the `Identity`. As long as an user or an actor able to maintain and has a *true ownership* of their identities, they'll be able to own and manage anythings that important for them. The mission and vision of this project is to bring back the power and control back to the people which not controlled by any single entity, organization, company or institutions. 
+The core foundation domain for this platform is the `Identity`. As long as an user or an actor able to maintain and has a *true ownership* of their identities, they'll be able to own and manage anythings that important for them. The mission and vision of this project is to bring back the power and control back to the people which not controlled by any single entity, organization, company or institutions.
+
+---
+
+> [Prople Paper](https://github.com/prople/paper) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
