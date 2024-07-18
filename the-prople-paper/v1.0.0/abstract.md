@@ -28,4 +28,4 @@ The core foundation domain for this platform is the `Identity`. As long as an us
 
 ---
 
-> [Prople Paper](https://github.com/prople/paper) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
+> [The Prople Paper: Abstract](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/abstract.md) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
