@@ -33,20 +33,20 @@ why we have the open standards for the *identity management* like `OpenID`.
 > The real problem is not the *interoperability* or the standards, but who own and control the identity?
 
 User's identitites will be saved on the platform or networks databases, a storage that an user will not have any access to it. User will only able to use their identity through the platform's application or software. This platform or organization will own it, they own, control and manage it. These institution or organization will have enough power and rights to do anything to their
-user's identities, like edit or even remove it. It's because the data saved on their platforms. Once user's or actor's identities owned by some intermediaries or third-parties, all of their activities and assets means controlled by these organization.
+user's identities, like edit or even remove it. It's because the data saved on their platforms. Once user's or actor's identities owned by some intermediaries or third-parties, all of their activities and assets means controlled by these organizations.
 
 > There are no true ownership, no privacy and no control for the individual for their own identities, activities and assets 
 
 Then comes the era when the `Bitcoin` born, it's the first decentralized and P2P cryptocurrency networks. A network where people
 have their own *unique address* and able to maintain their *crytpo assets* called `BTC`. This *unique address* indicate the user's *unique identity* on that network, and it's secured cryptographically. At this network, user able to send their asset (`BTC`) through their unique addresses. And because it's P2P and decentralized, there are no centralized organization or institution own or control them.
 
-`Prople` is an *open personalization platform* which aim to help individual to manage three important domains:
+`Prople` is an *open personalization platform* which aim to help *actors* to manage three important domains:
 
 - `Identity`
 - `Social`
 - `Finance`
 
-It has a `Prople Vessel` which is a `Personal Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an actors. It will able to online 7x24x365, and help individual and people to help their online activities. 
+It has a `Prople Vessel` which is a `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to online as long as7x24x365, and help an *actor* to manage their online activities. 
 
 `Prople Vessel` is a software that has functionalities which combination of these three things:
 
@@ -54,10 +54,14 @@ It has a `Prople Vessel` which is a `Personal Agent` that its functionalities de
 - `Social Agent`, used to manage any social activities such as real-time communication
 - `Crypto Wallet`, used to manage financial activities and assets 
 
-In summary, `Prople` provides an *individual agent*, an ecosystem, and an open, decentralized and P2P networks to provides three important domain problems:
+In summary, `Prople` provides an *actor agent*, an ecosystem, and an open, decentralized and P2P networks to provides solution for the three important domains:
 
 - `Decentralized Identity` 
 - `Decentralized Social`
 - `Decentralized Finance` 
 
 > `Prople` has a mission and vision to give back the true ownership and control back to the people. 
+
+---
+
+> [The Prople Paper: Introduction](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/introduction.md) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
