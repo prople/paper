@@ -14,8 +14,7 @@ lives as individuals.
 Today's human interactions also mediated by software, like real-time messaging apps, dating apps, and social networks. We
 as a human interact with others through some digital intermediaries where people gathered there in the some digital platforms.
 
-For the business and all financial activities, almost everything through the digital intermediaries too. We have a digital bank,
-and a digital payment gateways. Almost all of our financial transactions happened through some software belongs to some institutions, no matter it's an old institution or new digital institutions.
+For the business and all financial activities, almost goes everything through the digital intermediaries too. We have a digital bank, and a digital payment gateways. Almost all of our financial transactions happened through some software belongs to some institutions, no matter it's an old institution or new digital institutions.
 
 Social, business and finance activities will always attached to an actor, either it's an user, organization or even just a
 bot (the other software), which means, we must know that the activity or the asset is belongs to whom? The answer is, we need a *unique identity*. Without this *unique identity*, we will not know the activity's actors or the asset's owners. Imagine there is gold bar saved in some bank's vault without any identities to show its owners, is it mean that everyone will have *rights* to
