@@ -25,7 +25,7 @@ own that gold?
 All of these components already been provided by current institutions or tech companies. Their software already provide solutions
 for the social, business and finance activities and assets, by providing their own *Identity Management*. 
 
-If an user want to interact with some digital platforms or networks, for whatever reasons, either for social or business activities, the first thing they have to do is to create their *unique identity* on that platforms or netowrks. All of user's
+If an user want to interact with some digital platforms or networks, for whatever reasons, either for social or business activities, the first thing they have to do is to create their *unique identity* on that platforms or networks. All of user's
 activities and assets, will belongs to their *identity* registered on that specific platforms. If an user need to access two
 or more platforms or networks, it means they have to create their *identity* on those platforms, one by one. This is the reason
 why we have the open standards for the *identity management* like `OpenID`.
@@ -37,7 +37,7 @@ user's identities, like edit or even remove it. It's because the data saved on t
 
 > There are no true ownership, no privacy and no control for the individual for their own identities, activities and assets 
 
-Then comes the era when the `Bitcoin` born, it's the first decentralized and P2P cryptocurrency networks. A network where people
+Then comes an era when the `Bitcoin` born, it's the first decentralized and P2P cryptocurrency networks. A network where people
 have their own *unique address* and able to maintain their *crytpo assets* called `BTC`. This *unique address* indicate the user's *unique identity* on that network, and it's secured cryptographically. At this network, user able to send their asset (`BTC`) through their unique addresses. And because it's P2P and decentralized, there are no centralized organization or institution own or control them.
 
 `Prople` is an *open personalization platform* which aim to help *actors* to manage three important domains:
@@ -46,7 +46,7 @@ have their own *unique address* and able to maintain their *crytpo assets* calle
 - `Social`
 - `Finance`
 
-It has a `Prople Vessel` which is a `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to online as long as 7x24x365, and help an *actor* to manage their online activities and assets. 
+It has a `Prople Vessel` which is an `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to online as long as 7x24x365, and help an *actor* to manage their online activities and assets. 
 
 `Prople Vessel` is a software that has functionalities which have a combination of these three things:
 
