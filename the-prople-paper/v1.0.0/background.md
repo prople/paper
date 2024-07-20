@@ -155,6 +155,8 @@ The `Prople Vessel` heavy inspired from the `Solid Pod`. The difference with it 
 
 The `Prople Vessel` designed to be a *container* that deployed on server's environments, owned and controlled by a single *actor*. An user may have multiple *vessel agents* that deployed either in the same or different servers, and even user able to deploy it their *localhost*. User will able to be *connected* with others through their *vessel agents*. This single *container* will have functionalities to manage all of three core domain problems.
 
+Unlike the `Solid Pod`, where user will required to setup their `Pods`, there is a concept of `VSP (Vessel Service Provider)`. This *service provider* is like an operator that want to setup `VSP` on their environments and be connected with other's *service operators*. These *operators* will interconnected each others to form a *decentralized and P2P network* of `PAIR (Prople Agent Identity Registry)`. The `VSP` operator, is like an *node operator* or *validators* in public blockchain networks which need to run a *node* that connected each others to form *decentralized & P2P cryptocurrency networks*. By providing this decentralized network, any non-technical users, will able to adopt this technology and setup their own `Prople Vessel Agent` through this network.
+
 ---
 
 > [The Prople Paper: Background](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
