@@ -48,7 +48,7 @@ have their own *unique address* and able to maintain their *crytpo assets* calle
 
 It has a `Prople Vessel` which is a `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to online as long as 7x24x365, and help an *actor* to manage their online activities and assets. 
 
-`Prople Vessel` is a software that has functionalities which combination of these three things:
+`Prople Vessel` is a software that has functionalities which have a combination of these three things:
 
 - `SSI Agent`, used to manage identities
 - `Social Agent`, used to manage any social activities such as real-time communication
