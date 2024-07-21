@@ -16,7 +16,7 @@ as a human interact with others through some digital intermediaries where people
 
 For the business and all financial activities, almost goes everything through the digital intermediaries too. We have a digital bank, and a digital payment gateways. Almost all of our financial transactions happened through some software belongs to some institutions, no matter it's an old institution or new digital institutions.
 
-Social, business and finance activities will always attached to an actor, either it's an user, organization or even just a
+Social, business and finance activities will always be attached to an actor, either it's an user, organization or even just a
 bot (the other software), which means, we must know that the activity or the asset is belongs to whom? The answer is, we need a *unique identity*. Without this *unique identity*, we will not know the activity's actors or the asset's owners. Imagine there is gold bar saved in some bank's vault without any identities to show its owners, is it mean that everyone will have *rights* to
 own that gold? 
 
@@ -46,7 +46,7 @@ have their own *unique address* and able to maintain their *crytpo assets* calle
 - `Social`
 - `Finance`
 
-It has a `Prople Vessel` which is an `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to online as long as 7x24x365, and help an *actor* to manage their online activities and assets. 
+It has a `Prople Vessel` which is an `Actor Agent` that its functionalities derived from the concept of `SSI (Self-Sovereign Identity) Agent`. The `Vessel` used as *digital representation* of an *actor*. It should be able to be online as long as 7x24x365, and help an *actor* to manage their online activities and assets. 
 
 `Prople Vessel` is a software that has functionalities which have a combination of these three things:
 
