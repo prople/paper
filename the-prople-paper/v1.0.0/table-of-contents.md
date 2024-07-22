@@ -16,3 +16,8 @@
         - [The Open Standards](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#the-open-standards)
         - [The Chain Abstraction & Network Interoperability](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#the-chain-abstractions--network-interoperability)
     - [Prople Solutions](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#prople-solutions)
+4. [Personalization](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md)
+    - [Overview](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#overview)
+        - [The Raise Of Cryptography](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#the-raise-of-cryptography)
+        - [The Raise Of Decentralized and P2P Networks](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#the-raise-of-decentralized-and-p2p-networks)
+        - [Prople: The Personalization Platform](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#prople-the-personalization-platforms)
