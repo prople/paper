@@ -59,24 +59,36 @@ The answer is `peer-to-peer networks`. There are only *node operators* and *vali
 
 First thing first, `Prople` is not about a *public blockchain networks*. `Prople` is about the *decentralized network*, the *platform* and the *ecosystem*, which designed specifically to give back freedom, control and *ownership* back to *actors*, whatever *actor* means, it can be an individual or person, an organization or institution, a device or even a *bot*.
 
-`Prople` will provides an *ecosystem*, where an *actor* will able to integrate with an organization or institution in the *fair relationship*. If as a person, when we are join to some *social network*, they (the provider / organization), will have rights to use our profiles and activities as the data and sell it to their advertisers without notify us and _share_ nothing with us. They've got much money from our data, is it *fair*? Totally eliminate organizations or institutions also not the answer, the right answer is fix the connection between the organization or institution with the *actor*. The *ecosystem* in the `Prople`, designed to have this *good*, *healthy* and *fair* connection between both parties. An *actor*, like a person, still need the intermediaries or organization, and vice versa, but the connection and relation between both must be stand based on *fair relation* and *fair connection*. The *actor* own and manage their *identities*, their activities and assets, and the organization doesn't need to host their actor data on their vaults just for the verification, it can be done through cryptography algorithm. 
+`Prople` will provides an *ecosystem*, where an *actor* will able to integrate with an organization or institution in the *fair relationship*. If as a person, when we are join to some *social network*, they (the provider / organization), will have rights to use our profiles and activities as the data and sell it to their advertisers without notify us and _share_ nothing with us. They've got much money from our data, is it *fair*? 
+
+Totally eliminate organizations or institutions also not the answer, the right answer is fix the connection between the organization or institution with the *actor*. The *ecosystem* in the `Prople`, designed to have this *good*, *healthy* and *fair* connection between both parties. An *actor*, like a person, still need the intermediaries or organization, and vice versa, but the connection and relation between both must be stand based on *fair relation* and *fair connection*. The *actor* own and manage their *identities*, their activities and assets, and the organization doesn't need to host their actor data on their vaults just for the verification, it can be done through cryptography algorithms. 
 
 There is a software called `Prople Vessel`, which is a *container* or an *agent* used as *digital representative* of an *actor*. What *actor* need to do is to deploy this *agent* into their environment, a cloud or bare metal servers, and they'll be able to connected to their agents through a *controller* which is a desktop/web clients. This software (vessel), used to connected to other *actors*, it can be an user, an organization, or even a *bot*. 
 
 > An *actor* may have multiple *vessels*, but a single *vessel* can only be owned by a single *actor*. 
 
 ```mermaid
-zenuml
-    Actor Vessel
-    @Actor Alice
-    @EC2 AliceVessel
-    
-    @Actor Bob 
-    @EC2 BobVessel
+sequenceDiagram
+    participant A as Alice
+    participant AV as AliceVessel
+    participant BV as BobVessel
+    participant B as Bob
 
-    Alice->AliceVessel: send message to bob
-    AliceVessel->BobVessel: forward message
+    A->>AV: send message to bob
+    AV->>BV: forward message
+    BV->>B: notify bob
+    B->>BV: reply message
+    BV->>AV: forward message
+    AV->>A: notify alice
 ```
+
+The `Prople Vessel` will have functionalities to solve these three domain problems:
+
+- `DID (Decentralized Identity)`
+- `Decentralized Social`
+- `Decentralized Finance`
+
+All of these three core domains designed specifically to help an *actor* to own and control their activities and assets, including their integration with some entities, organization or institution, inside the `Prople Ecosystem`.
 
 ---
 
