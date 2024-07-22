@@ -248,9 +248,9 @@ Although that the base foundation network will using `NEAR`, it doesn't mean to 
 
 #### Sovereign Crypto Wallet
 
-As like common cryptocurrency networks, `Prople Vessel` also will be a *sovereign wallet* which means will maintain the *actor* keypairs which contain the *public* and *private* keys, secured with the `SSS (Shamir Secret Sharing)` algorithm. 
+As like common cryptocurrency networks, `Prople Vessel` also will be a *sovereign wallet* which means will maintain the *actor* keypairs contains the *public* and *private* keys, secured with the `SSS (Shamir Secret Sharing)` algorithm. 
 
-The definition of this wallet is not like a common web3 wallet which also used to connect to some *dapps*. The first implementation of the *wallet* will only to manage the *actor* keypairs and also monitor the on-chain transactions.
+The definition of this wallet is not like a common web3 wallet that also used to connect to some *dapps*. The first implementation of the *wallet* will only to manage the *actor* keypairs, submit the transaction and also monitor the on-chain transactions.
 
 [^1]: https://www.w3.org/TR/did-core/
 [^2]: https://www.w3.org/TR/vc-data-model-2.0/
