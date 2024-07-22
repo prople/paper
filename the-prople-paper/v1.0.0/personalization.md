@@ -96,6 +96,10 @@ All of these three core domains designed specifically to help an *actor* to own 
 
 ## Core Domains
 
+This section will give out the high level overview about all the available standards and protocols used inside the `Prople`.
+
+---
+
 ### Identity
 
 *Identity* is the core foundation of `Prople`. The other domains will be build on top of this primary domain. There are already existed many *identity management solution* out there, including for the `OpenID`, which try to solve the *interoperability* problem. The problem that try to solve here is about the *ownership* and *self manage* identity management, which focus on *personalization identity platform*.
@@ -220,7 +224,7 @@ To enable the real-time messaging communication, `Prople` also will implement th
 Data flows architecture:[^8]
 
 ```
- { Matrix client A }                             { Matrix client B }
+     { Matrix client A }                             { Matrix client B }
         ^          |                                    ^          |
         |  events  |  Client-Server API                 |  events  |
         |          V                                    |          V
@@ -246,11 +250,15 @@ Next implementation will probable to support other networks, through some *abstr
 
 Although that the base foundation network will using `NEAR`, it doesn't mean to limit user's transactions. The main objective of *chain abstraction* is about user should be able to send their asset to any networks out there, _easily_.
 
+For the first phase, *actors* will only be able to send the asset that already supported or existed at the `NEAR Network`, next phase, they should be able to send or receive assets across the networks. 
+
 #### Sovereign Crypto Wallet
 
-As like common cryptocurrency networks, `Prople Vessel` also will be a *sovereign wallet* which means will maintain the *actor* keypairs contains the *public* and *private* keys, secured with the `SSS (Shamir Secret Sharing)` algorithm. 
+As like common cryptocurrency networks, `Prople Vessel` also will be a *sovereign wallet* which means will maintain the *actor* keypairs contains the *public* and *private* keys, secured with the `SSS (Shamir Secret Sharing)` algorithm. By implement this algorithm, the *actor private keys* will be separated into multiple shares, and one of it will be downloaded to the *actor* local environment, and all of available shares will be generated encrypted.  So even, if the *actor vessel* been attacked by some hackers, they'll not able to use the existing keys because the most important share already been download into different locations. 
 
-The definition of this wallet is not like a common web3 wallet that also used to connect to some *dapps*. The first implementation of the *wallet* will only to manage the *actor* keypairs, submit the transaction and also monitor the on-chain transactions.
+The definition of this wallet is not like a common web3 wallet that also used to connect to some *dapps*. The first implementation of the *wallet* will designed to manage the *actor* keypairs or as a *key management*, and the *transaction management*.
+
+The `Prople Crypto Wallet`, will not act like common wallet when connecting into the *dapps*. The `Prople Ecosystem` will provides the difference way to maintain the connection between the application and the *actor wallet*, which will also take leverage from the `DID` account management above. 
 
 [^1]: https://www.w3.org/TR/did-core/
 [^2]: https://www.w3.org/TR/vc-data-model-2.0/
