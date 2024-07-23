@@ -23,6 +23,8 @@ The `Vessel Daemon` that need to be deployed and run, will open a single port us
 
 It choose the `JSON-RPC` as main protocol communication becaus its simplicty, no need to maintain multiple endpoints and its handlers, just a single enpdpoint that able to receive multiple commands.
 
+#### Packages 
+
 The `Vessel` codebase separated into multiple `Rust Packages`:
 
 ```mermaid
@@ -62,6 +64,13 @@ External packages:
 
 - `prople/did` : It's a package build to modeling the `DID`
 - `prople/crypto` : It's a package used to manage cryptography algorithms 
+
+#### Cryptography
+
+There are two important needs for the *cryptography* :
+
+- Key exchanges
+- Digital signatures
 
 ---
 
