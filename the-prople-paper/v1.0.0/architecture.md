@@ -72,6 +72,20 @@ There are two important needs for the *cryptography* :
 - Key exchanges
 - Digital signatures
 
+The cryptography at the `prople/crypto` designed specifically only for `Prople Ecosystem`. There are multiple algorithms used:
+
+- `ECDH`: Used to generate *keypairs* (public and private keys), to establish a *shared secret key*
+- `EdDSA`: It's a digital signature scheme, which will be used as the *unique identifier*
+- `Blake3`: Used for a *hash function*
+- `Chacha20-Poly1305`: It's a `AEAD (Authenticated Encryption with Additional Data)` algorithm
+- `Base58`: Used for encoding format
+
+All of these algorithms will be used heavily in the `prople/did`, such as when generate the `DID`. The algorithm:
+
+```
+eddsa::KeyPair -> get publicKey -> hash: SHA3 -> hash: Blake3 -> multibase: Base58Btc 
+```
+
 ---
 
 > [The Prople Paper: Architecture](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
