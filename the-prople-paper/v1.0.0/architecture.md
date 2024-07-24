@@ -23,6 +23,39 @@ The `Vessel Daemon` that need to be deployed and run, will open a single port us
 
 It choose the `JSON-RPC` as main protocol communication becaus its simplicty, no need to maintain multiple endpoints and its handlers, just a single enpdpoint that able to receive multiple commands.
 
+> Each of an *actor* will may have multiple *vessels*, but a single *vessel* will only be owned by a single *actor*.
+
+```mermaid
+flowchart LR
+    actor --> vessel_1
+    actor --> vessel_2
+    actor --> vessel_n
+```
+
+All communication between *actors* will have through their *vessels*, and the communication protocol used between *vessels* is via `JSON-RPC API`.
+
+```mermaid
+sequenceDiagram
+    actor Alice
+    participant AV as AliceVessel
+
+    participant BV as BobVessel
+    actor Bob
+
+    Alice->>AV: send message to bob
+
+    AV->>BV: forward message
+    Note right of AV: JSON RPC API
+
+    BV->>Bob: notify bob
+    Bob->>BV: reply message
+    
+    BV->>AV: forward message 
+    Note right of AV: JSON RPC API
+    
+    AV->>Alice: notify alice
+```
+
 #### Packages 
 
 The `Vessel` codebase separated into multiple `Rust Packages`:
