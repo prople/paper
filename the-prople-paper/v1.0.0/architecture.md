@@ -46,7 +46,7 @@ classDiagram
     }
 
     vessel-core <.. vessel-rpc : depends    
-    vessel-core <.. vessel-cli : depends
+    vessel-rpc <-- vessel-cli : manage 
     vessel-rpc <-- vesseld : use
 
     prople-did <.. vessel-core : depends
