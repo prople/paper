@@ -113,12 +113,45 @@ The cryptography at the `prople/crypto` designed specifically only for `Prople E
 - `Chacha20-Poly1305`: It's a `AEAD (Authenticated Encryption with Additional Data)` algorithm
 - `Base58`: Used for encoding format
 
-All of these algorithms will be used heavily in the `prople/did`, such as when generate the `DID`. The algorithm:
+---
+
+The *key exchanges* will be used to create a secure channel of communication between *actors*.
+
+There are two kind of *connections* :
+
+- Public connection
+- Private connection
+
+For an *actor* to be able to connected and share *private messages*, they have to be *connected*. This special connection, means they need to exchange their *ECDH public keys*. These keys will be used to generate the *shared secret key*, which is a combination between private keys and public keys from others. Once this *secret keys* generated, their next communication will be formed in the *encrypted messages*. [^1] 
+
+This kind of algorithms used through the `DIDComm` standard.
+
+> DIDComm uses DIDs (Decentralized Identifiers) to establish confidential, ongoing connections, without the need for usernames and passwords.
+>
+> DIDComm protocols enable trusted interactions between parties [^2][^3]
+
+---
+
+The `EdDSA` algorithm used for two cases:
+
+- Message digital signatures
+- Identity unique identifiers
+
+The algorithm behind the *unique identifiers*:
 
 ```
 eddsa::KeyPair -> get publicKey -> hash: SHA3 -> hash: Blake3 -> multibase: Base58Btc 
 ```
 
+This algorithm actually follow what `Bitcoin` when generate the *address*, but using different hashing algorithms. 
+
+|   Bitcoin |   Prople  |
+|   ------- |   ------  |
+|   `SHA256` & `RIPEMD` |   `SHA3` & `BLAKE3`   |
+
+[^1]: https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
+[^2]: https://didcomm.org/
+[^3]: https://identity.foundation/didcomm-messaging/spec/v2.1/
 ---
 
 > [The Prople Paper: Architecture](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
