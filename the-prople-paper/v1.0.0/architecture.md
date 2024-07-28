@@ -178,6 +178,10 @@ flowchart LR
 
 Each of data will be replicated to other available nodes using the `Raft Procotol` as a base protocol standard to replicate the data including for *master/leader election*. Any user requests will always comes through the *master node*.
 
+> The internal communication between nodes including for its *master/leader* will using *libp2p network stacks* to maintain peer-to-peer network communications
+>
+> This *libp2p* will also be used for the *master-to-master* communication protocol between *providers*
+
 #### Example use cases
 
 Each of *providers* may be connected to each others. Let's say there are two *service providers*, `Alice` and `Bob`. Both of them as a *provider*, already setup their *vsp networks*.
