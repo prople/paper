@@ -52,3 +52,4 @@ The primary objective from sharing this paper is to invite people who has a same
             - [Cryptography](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#cryptography)
         - [VSP: Vessel Service Provider](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vsp-vessel-service-provider)
             - [Example Use Cases](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#example-use-cases)
+        - [Vessel Webhooks](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vessel-webhooks)
