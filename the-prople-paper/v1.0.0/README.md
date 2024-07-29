@@ -45,6 +45,7 @@ The primary objective from sharing this paper is to invite people who has a same
             - [Public Blockchain Network](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#public-blockchain-network)
             - [Sovereign Crypto Wallet](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#sovereign-crypto-wallet)
 5. [Architecture](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md)
+    - [Principles](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#principles)
     - [Components](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#components)
         - [Vessel: Personal Self Sovereign Agent & Wallet](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vessel-personal-self-sovereign-agent--wallet)
             - [Packages](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#packages)
