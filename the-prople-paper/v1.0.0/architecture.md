@@ -281,6 +281,26 @@ If the requested `DID Account` already belongs to `Alice` then it doesn't need t
 
 > The `Prople` decentralized network designed to provides *decentralized computation resources* for all users. It's not just used to manage their identities, but also other domains such as for the *social* and *finance*
 
+### Vessel Webhooks
+
+Whatever user's choices, either it's *personal vessel single instance* or through the *VSP*, each of user's vessel must have a *Webhook API*.
+
+Each of internal activities inside the *Vessel* will have an *event*, and when an *event* triggered it will send an request to *registered endpoint as callback*. All of the callback endpoints must be registered first to got the callback request calls.
+
+```mermaid
+sequenceDiagram
+    actor UserA
+    participant AN as AliceMasterNode
+    participant TP as ThirdPartyEntity
+    
+    UserA->>+AN: request to do something
+    AN-->>AN: do something
+    AN-->>TP: send callback
+    AN->>-UserA: give response 
+```
+
+If some of you think, "why webhook API? why not websocket?", the answer is back to our first principles, which is, *ASAP (As Simple As Possible)*, using Webhook is much simpler than managing and maintaining the WebSocket.
+
 [^1]: https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
 [^2]: https://didcomm.org/
 [^3]: https://identity.foundation/didcomm-messaging/spec/v2.1/
