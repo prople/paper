@@ -53,3 +53,8 @@ The primary objective from sharing this paper is to invite people who has a same
         - [VSP: Vessel Service Provider](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vsp-vessel-service-provider)
             - [Example Use Cases](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#example-use-cases)
         - [Vessel Webhooks](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vessel-webhooks)
+6. [Ecosystem](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md)
+    - [Prople Platform](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md#prople-platform)
+    - [Prople Apps](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md#prople-apps)
+    - [Prople Community](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md#prople-community)
+    - [Prople OSS Center](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md#prople-oss-open-source-software-center)
