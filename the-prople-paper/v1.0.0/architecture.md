@@ -9,7 +9,7 @@
 ## Principles
 
 - `ADAP (As Decentralized As Possible)`
-- `ASAP (As Centralized As Possible)`
+- `ASAP (As Simple As Possible)`
 
 `Prople` have a mission and vision to provides an open and decentralized network where anyone can be participated to join the network. It different with other *private network* which owned and maintained by a single entity like company.
 
@@ -238,6 +238,8 @@ If there are third party involved, let's say, `Tom`, the network diagram will be
 
 ![vsp_network_diagrams](./images/vsp_network_diagram.drawio.png)
 
+The communication protocol between *master nodes* will be formed through the `JSON-RPC API`. It will have additional API methods compared with the `Prople Vessel` single instance.
+
 Unlike *blockchain node operator*, the primary data submitted by user will be saved only in a single *provider*. For an example, an *UserA* submit their identities through the `Alice Provider`. The *UserA* data will be saved only at the `Alice Provider`, and will only be replicated inside the `Alice VSP Nodes`, the *primary data* will not be shared with other connected *provider master nodes*.
 
 The reason of this approach is to make sure that once an user decide to remove their personal data *forever*, they only need to remove it from a single *node*, other nodes that asking the value will be affected. It's different concept with the *blockchain node* where the data will always saved in the *immutable database*.
@@ -277,7 +279,7 @@ sequenceDiagram
 
 If the requested `DID Account` already belongs to `Alice` then it doesn't need to make any calls to other provider's nodes.
 
-
+> The `Prople` decentralized network designed to provides *decentralized computation resources* for all users. It's not just used to manage their identities, but also other domains such as for the *social* and *finance*
 
 [^1]: https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
 [^2]: https://didcomm.org/
