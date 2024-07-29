@@ -164,9 +164,11 @@ This algorithm actually follow what `Bitcoin` when generate the *address*, but u
 |   ------- |   ------  |
 |   `SHA256` & `RIPEMD` |   `SHA3` & `BLAKE3`   |
 
-### VSP (Vessel Service Provider) 
+### VSP (Vessel Service Provider)
 
-The `Prople Vessel` is really a good fit to maintain a personal needs. But its disadvantages is, it need a technical skills to setup. An user need to deploy and execute the binary in their chosen environments, it will be an easy task for technical persons, but for the non-technical person it will be really hard. 
+> `Prople` designed by a people for the people. The objective is building the personalization platform, and help each others 
+
+The `Prople Vessel` is really a good fit to maintain a personal needs. But the disadvantages is, it need a technical skills to setup. An user need to deploy and execute the binary in their chosen environments, it will be an easy task for technical persons, but for the non-technical person it will be really hard. 
 
 The `Prople` designed to be an *open and decentralized networks*, which means, anyone can participate to join and build the network. A technical users will able to participate and join the network by become the *service providers*, providing help to other non-technical users, as a `VSP (Vessel Service Provider)`.
 
@@ -237,6 +239,10 @@ If there are third party involved, let's say, `Tom`, the network diagram will be
 ![vsp_network_diagrams](./images/vsp_network_diagram.drawio.png)
 
 Unlike *blockchain node operator*, the primary data submitted by user will be saved only in a single *provider*. For an example, an *UserA* submit their identities through the `Alice Provider`. The *UserA* data will be saved only at the `Alice Provider`, and will only be replicated inside the `Alice VSP Nodes`, the *primary data* will not be shared with other connected *provider master nodes*.
+
+The reason of this approach is to make sure that once an user decide to remove their personal data *forever*, they only need to remove it from a single *node*, other nodes that asking the value will be affected. It's different concept with the *blockchain node* where the data will always saved in the *immutable database*.
+
+> To make sure that an user has a true ownership and control for their data, especially for their identities, they have full rights to modify and delete their own data
 
 The data that will be shared to other connected *master nodes* is just the `DID Account` with the *provider uri*.
 
