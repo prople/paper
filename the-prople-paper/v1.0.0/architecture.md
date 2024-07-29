@@ -6,6 +6,15 @@
 
 # Architecture
 
+## Principles
+
+- `ADAP (As Decentralized As Possible)`
+- `ASAP (As Centralized As Possible)`
+
+`Prople` have a mission and vision to provides an open and decentralized network where anyone can be participated to join the network. It different with other *private network* which owned and maintained by a single entity like company.
+
+Unlike current *blockchain netowrks* that *sometimes* it will require a high resources to run their nodes, `Prople` designed to be *as simple as possible*, because if it's getting easier to run a *node* by anyone, it means we have a high confident that our network will be decentralized enough, to make sure it always *as decentralized as possible*. 
+
 ## Components
 
 ### Vessel: Personal Self Sovereign Agent & Wallet
