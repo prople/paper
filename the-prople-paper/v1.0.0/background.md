@@ -2,6 +2,22 @@
 |   ------- |   ------- |   ------  |   ------  |   ---------   |
 |   [The Prople Paper](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0)   |   `Background` | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) |    July, 20th, 2024  06:22:00 UTC
 
+# Table of Contents
+
+- [The Evolution Of Web: Read - Write - Own](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#the-evolution-of-web-read---write---own) 
+    - [Web1 - Read](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#web1---read)
+    - [Web2 - Write](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#web2---write)
+    - [Web3 - Own](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#web3---own)
+- [Related Projects - Decentralized Movements](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#related-projects---decentralized-movements)
+    - [SolidProject](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#solidproject)
+    - [AT Protocol & BlueSky](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#at-protocol--bluesky)
+    - [Mastodon](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#mastodon)
+    - [Lens Protocol](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#lens-protocol)
+- [Evaluation](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#evaluation)
+    - [The Open Standards](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#the-open-standards)
+    - [The Chain Abstractions & Network Interoperability](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#the-chain-abstractions--network-interoperability)
+- [Prople Solutions](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/background.md#prople-solutions)
+
 ---
 
 # Background

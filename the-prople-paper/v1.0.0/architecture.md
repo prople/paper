@@ -2,6 +2,17 @@
 |   ------- |   ------- |   ------  |   ------  |   ---------   |
 |   [The Prople Paper](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0)   |   `Architecture` | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) |    July, 23th, 2024  01:15 UTC
 
+# Table of Contents
+
+- [Principles](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#principles)
+- [Components](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#components)
+    - [Vessel: Personal Self Sovereign Agent & Wallet](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vessel-personal-self-sovereign-agent--wallet)
+        - [Packages](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#packages)
+        - [Cryptography](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#cryptography)
+    - [VSP (Vessel Service Provider)](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vsp-vessel-service-provider)
+        - [Example Use Cases](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#example-use-cases)
+    - [Vessel WebHooks](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md#vessel-webhooks)
+
 ---
 
 # Architecture
