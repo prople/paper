@@ -6,9 +6,12 @@
 
 # Abstract
 
-This paper introduce a `Prople` project, it's a `Personalization Platform`. It's combine experiences from the Web2 and Web3
-designed specifically for the user's personal assets and activities. It manages three user's core domains, which are `Identity`,
-`Social` and `Finance`. 
+This paper introduce a `Prople` project, it's a `Personalization Platform`. It combine experiences from the Web2 and Web3
+designed specifically for the user's personal assets and activities. It manages three user's core domains:
+
+- `Identity`,
+- `Social` 
+- `Finance`. 
 
 For the `Identity`, this project implement the `Decentralized Identity (DID)` standard and derive the
 functionality of `SSI (Self Sovereign Identity) Agent` to its own computation agent called `Prople Vessel`. The `Vessel` is a combination functionalities of `SSI Agent` and also `PDS (Personal Data Storage)`, which used to save and compute data. It's like a `Pod` from [Solid Project](https://solidproject.org/). To support wide adoption, it will also provides `Vessel Service Provider (VSP)`, which is an open and decentralized networks where people can help to participate to form the `PAIR (Prople Agent Identity Registry)` decentralized network and a cluster of `Vessel`, so an user with non-technical background will able
