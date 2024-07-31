@@ -1,6 +1,6 @@
 # Overview
 
-`The Prople Paper` is a paper build to give people a clear insight about the `Prople` from its a general ideas, concepts into high-level architecture designs. This paper will contains:
+`The Prople Paper` is a paper that designed and built to give people a clear insight about the `Prople` from its a general ideas, concepts into high-level architecture designs. This paper will contains:
 
 - Introduce a concept of `Personalization Platform`
 - Introduce a concept of `Prople Platform`
