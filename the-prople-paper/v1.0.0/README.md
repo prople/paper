@@ -4,8 +4,9 @@
 
 This paper will contains:
 
-- Introduce a concept of `Personalization Platform`
-- Introduce a concept of `Prople Platform`
+- An introduction of `Personalization Platform`
+- An introduciton of `Prople Platform`
+- The mission and vision try to achieved by `Prople`
 
 The primary objective from sharing this paper is to invite people who has a same mission and vision, to join and contribute to this project.
 
