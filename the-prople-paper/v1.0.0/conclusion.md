@@ -17,7 +17,7 @@ In this paper we've introduced the `Prople` and it's concept of `Personalization
 - `ActivityPub` and `Matrix Protocol`
 - Existing *crytocurrency* networks, either it EVM (L1/L2) or non-EVM networks, and it has a chance someday will be integrated with the `Bitcoin` ecosystem through its L2 networks, such as `Stacks`
 
-`Prople` provides the software, tools and decentralized networks through its `VSP P2P Networks` to help users maintain their *personalization* activities and assets through their *vessel*.
+`Prople` provides the software, tools and decentralized networks through its `VSP P2P Networks` to help users maintain their *personalization* activities and assets through their *vessel*. Both of these components will introduce a new experiences to users to use the Internet without sacrifice their *ownership*, *control* and *privacy*.
 
 ---
 
