@@ -2,6 +2,23 @@
 |   ------- |   ------- |   ------  |   ------  |   ---------   |
 |   [The Prople Paper](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0)   |   `Personalization Platform` | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) |    July, 22th, 2024  02:06:00 UTC
 
+# Table of Contents
+
+- [Overview](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#overview)
+    - [The Raise Of Cryptography](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#the-raise-of-cryptography)  
+    - [The Raise Of Decentralized & P2P Networks](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#the-raise-of-decentralized-and-p2p-networks)
+    - [Prople: The Personalization Platform](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#prople-the-personalization-platforms)
+- [Core Domains](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#core-domains)
+    - [Identity](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#identity)
+        - [DID (Decentralized Identity)](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#did-decentralized-identity)
+        - [SSI (Self Sovereign Identity)](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#ssi-self-sovereign-identity)
+    - [Social](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#social)
+        - [ActivityPub](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#activitypub)
+        - [Matrix Protocol](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#matrix-protocol)
+    - [Finance](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#finance)
+        - [Public Blockchain Network](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#public-blockchain-network)
+        - [Sovereign Crypto Wallet](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/personalization.md#sovereign-crypto-wallet)
+
 ---
 
 # The Personalization Platform
