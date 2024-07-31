@@ -20,3 +20,4 @@ The primary objective from sharing this paper is to invite people who has a same
 5. [Architecture](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/architecture.md)
 6. [Ecosystem](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/ecosystem.md)
 7. [Governance](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/governance.md)
+8. [Conclusion](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/conclusion.md)
