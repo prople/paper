@@ -2,6 +2,11 @@
 |   ------- |   ------- |   ------  |   ------  |   ---------   |
 |   [The Prople Paper](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0)   |   `Governance` | v1.0.0 | [rstlix0x0](https://github.com/rstlix0x0/) |    July, 30th, 2024  02.57:00 UTC
 
+# Table of Contents
+
+- [Treasury](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/governance.md#treasury)
+- [OSS Center](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/governance.md#oss-center)
+
 ---
 
 # Governance
