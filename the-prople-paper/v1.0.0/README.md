@@ -28,3 +28,7 @@ The primary objective from sharing this paper is to invite people who has a same
 ## PDF
 
 File: https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/pdf/Prople_%20The%20Personalization%20Platform.pdf
+
+## COPYRIGHT 
+
+[The Prople Paper: v.1.0.0](https://github.com/prople/paper/blob/main/the-prople-paper/v1.0.0/) © 2024 by [rstlix0x0](https://github.com/rstlix0x0/) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) 
