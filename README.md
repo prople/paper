@@ -14,3 +14,4 @@ The versionning will follow [SemVer](https://semver.org/) standards.
 |   Title   | Latest Version    |   Author  |
 |   -----   | --------------    |   ------  |
 |   `The Prople Paper`  |   [v1.0.0](https://github.com/prople/paper/tree/main/the-prople-paper/v1.0.0) | [rstlix0x0](https://github.com/rstlix0x0/) |
+|   `Prople: Digital Soverignty Platform - Strategic Overview` | [v1.0.0](https://github.com/prople/paper/tree/main/digital-sovereignty-platform-strategic-overview/v1.0.0) | [rstlix0x0](https://github.com/rstlix0x0/) |
